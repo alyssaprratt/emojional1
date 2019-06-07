@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F309CE22AAE9EE00F21F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F309CD22AAE9EE00F21F9B /* AppDelegate.swift */; };
+		18F309D022AAE9EE00F21F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F309CF22AAE9EE00F21F9B /* ViewController.swift */; };
+		18F309D322AAE9EE00F21F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F309D122AAE9EE00F21F9B /* Main.storyboard */; };
+		18F309D522AAE9F000F21F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F309D422AAE9F000F21F9B /* Assets.xcassets */; };
+		18F309D822AAE9F000F21F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F309D622AAE9F000F21F9B /* LaunchScreen.storyboard */; };
+		18F309E322AAE9F000F21F9B /* emojounalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F309E222AAE9F000F21F9B /* emojounalTests.swift */; };
+		18F309EE22AAE9F000F21F9B /* emojounalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F309ED22AAE9F000F21F9B /* emojounalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F309DF22AAE9F000F21F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F309C222AAE9EE00F21F9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F309C922AAE9EE00F21F9B;
+			remoteInfo = emojounal;
+		};
+		18F309EA22AAE9F000F21F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F309C222AAE9EE00F21F9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F309C922AAE9EE00F21F9B;
+			remoteInfo = emojounal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F309CA22AAE9EE00F21F9B /* emojounal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emojounal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F309CD22AAE9EE00F21F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F309CF22AAE9EE00F21F9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F309D222AAE9EE00F21F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F309D422AAE9F000F21F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F309D722AAE9F000F21F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F309D922AAE9F000F21F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F309DE22AAE9F000F21F9B /* emojounalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojounalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F309E222AAE9F000F21F9B /* emojounalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojounalTests.swift; sourceTree = "<group>"; };
+		18F309E422AAE9F000F21F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F309E922AAE9F000F21F9B /* emojounalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojounalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F309ED22AAE9F000F21F9B /* emojounalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojounalUITests.swift; sourceTree = "<group>"; };
+		18F309EF22AAE9F000F21F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F309C722AAE9EE00F21F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309DB22AAE9F000F21F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309E622AAE9F000F21F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F309C122AAE9EE00F21F9B = {
+			isa = PBXGroup;
+			children = (
+				18F309CC22AAE9EE00F21F9B /* emojounal */,
+				18F309E122AAE9F000F21F9B /* emojounalTests */,
+				18F309EC22AAE9F000F21F9B /* emojounalUITests */,
+				18F309CB22AAE9EE00F21F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F309CB22AAE9EE00F21F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F309CA22AAE9EE00F21F9B /* emojounal.app */,
+				18F309DE22AAE9F000F21F9B /* emojounalTests.xctest */,
+				18F309E922AAE9F000F21F9B /* emojounalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F309CC22AAE9EE00F21F9B /* emojounal */ = {
+			isa = PBXGroup;
+			children = (
+				18F309CD22AAE9EE00F21F9B /* AppDelegate.swift */,
+				18F309CF22AAE9EE00F21F9B /* ViewController.swift */,
+				18F309D122AAE9EE00F21F9B /* Main.storyboard */,
+				18F309D422AAE9F000F21F9B /* Assets.xcassets */,
+				18F309D622AAE9F000F21F9B /* LaunchScreen.storyboard */,
+				18F309D922AAE9F000F21F9B /* Info.plist */,
+			);
+			path = emojounal;
+			sourceTree = "<group>";
+		};
+		18F309E122AAE9F000F21F9B /* emojounalTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F309E222AAE9F000F21F9B /* emojounalTests.swift */,
+				18F309E422AAE9F000F21F9B /* Info.plist */,
+			);
+			path = emojounalTests;
+			sourceTree = "<group>";
+		};
+		18F309EC22AAE9F000F21F9B /* emojounalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F309ED22AAE9F000F21F9B /* emojounalUITests.swift */,
+				18F309EF22AAE9F000F21F9B /* Info.plist */,
+			);
+			path = emojounalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F309C922AAE9EE00F21F9B /* emojounal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F309F222AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounal" */;
+			buildPhases = (
+				18F309C622AAE9EE00F21F9B /* Sources */,
+				18F309C722AAE9EE00F21F9B /* Frameworks */,
+				18F309C822AAE9EE00F21F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emojounal;
+			productName = emojounal;
+			productReference = 18F309CA22AAE9EE00F21F9B /* emojounal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F309DD22AAE9F000F21F9B /* emojounalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F309F522AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounalTests" */;
+			buildPhases = (
+				18F309DA22AAE9F000F21F9B /* Sources */,
+				18F309DB22AAE9F000F21F9B /* Frameworks */,
+				18F309DC22AAE9F000F21F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F309E022AAE9F000F21F9B /* PBXTargetDependency */,
+			);
+			name = emojounalTests;
+			productName = emojounalTests;
+			productReference = 18F309DE22AAE9F000F21F9B /* emojounalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F309E822AAE9F000F21F9B /* emojounalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F309F822AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounalUITests" */;
+			buildPhases = (
+				18F309E522AAE9F000F21F9B /* Sources */,
+				18F309E622AAE9F000F21F9B /* Frameworks */,
+				18F309E722AAE9F000F21F9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F309EB22AAE9F000F21F9B /* PBXTargetDependency */,
+			);
+			name = emojounalUITests;
+			productName = emojounalUITests;
+			productReference = 18F309E922AAE9F000F21F9B /* emojounalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F309C222AAE9EE00F21F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18F309C922AAE9EE00F21F9B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					18F309DD22AAE9F000F21F9B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18F309C922AAE9EE00F21F9B;
+					};
+					18F309E822AAE9F000F21F9B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18F309C922AAE9EE00F21F9B;
+					};
+				};
+			};
+			buildConfigurationList = 18F309C522AAE9EE00F21F9B /* Build configuration list for PBXProject "emojounal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F309C122AAE9EE00F21F9B;
+			productRefGroup = 18F309CB22AAE9EE00F21F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F309C922AAE9EE00F21F9B /* emojounal */,
+				18F309DD22AAE9F000F21F9B /* emojounalTests */,
+				18F309E822AAE9F000F21F9B /* emojounalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F309C822AAE9EE00F21F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F309D822AAE9F000F21F9B /* LaunchScreen.storyboard in Resources */,
+				18F309D522AAE9F000F21F9B /* Assets.xcassets in Resources */,
+				18F309D322AAE9EE00F21F9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309DC22AAE9F000F21F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309E722AAE9F000F21F9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F309C622AAE9EE00F21F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F309D022AAE9EE00F21F9B /* ViewController.swift in Sources */,
+				18F309CE22AAE9EE00F21F9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309DA22AAE9F000F21F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F309E322AAE9F000F21F9B /* emojounalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F309E522AAE9F000F21F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F309EE22AAE9F000F21F9B /* emojounalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F309E022AAE9F000F21F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F309C922AAE9EE00F21F9B /* emojounal */;
+			targetProxy = 18F309DF22AAE9F000F21F9B /* PBXContainerItemProxy */;
+		};
+		18F309EB22AAE9F000F21F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F309C922AAE9EE00F21F9B /* emojounal */;
+			targetProxy = 18F309EA22AAE9F000F21F9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F309D122AAE9EE00F21F9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F309D222AAE9EE00F21F9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F309D622AAE9F000F21F9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F309D722AAE9F000F21F9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F309F022AAE9F000F21F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F309F122AAE9F000F21F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F309F322AAE9F000F21F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F309F422AAE9F000F21F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F309F622AAE9F000F21F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojounal.app/emojounal";
+			};
+			name = Debug;
+		};
+		18F309F722AAE9F000F21F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/emojounal.app/emojounal";
+			};
+			name = Release;
+		};
+		18F309F922AAE9F000F21F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emojounal;
+			};
+			name = Debug;
+		};
+		18F309FA22AAE9F000F21F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = emojounalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alyssa.emojounalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = emojounal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F309C522AAE9EE00F21F9B /* Build configuration list for PBXProject "emojounal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F309F022AAE9F000F21F9B /* Debug */,
+				18F309F122AAE9F000F21F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F309F222AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F309F322AAE9F000F21F9B /* Debug */,
+				18F309F422AAE9F000F21F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F309F522AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F309F622AAE9F000F21F9B /* Debug */,
+				18F309F722AAE9F000F21F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F309F822AAE9F000F21F9B /* Build configuration list for PBXNativeTarget "emojounalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F309F922AAE9F000F21F9B /* Debug */,
+				18F309FA22AAE9F000F21F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F309C222AAE9EE00F21F9B /* Project object */;
+}
